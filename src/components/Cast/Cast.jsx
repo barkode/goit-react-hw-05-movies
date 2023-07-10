@@ -34,6 +34,7 @@ const Cast = () => {
                     : PLACEHOLDER + '?text=' + original_name
                 }`}
                 alt={original_name}
+                loading="lazy"
               />
 
               <p>
